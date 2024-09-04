@@ -26,3 +26,12 @@ class Aluno:
         :return nome e idade em formato de String
         """
         return f"Aluno [ nome={self.nome}, idade={self.idade} ]"
+
+    def __lt__(self, other):
+        """
+        Implementa comparação para ordenar por nome e, em caso de empate, por idade.
+        :return nome, idade
+        """
+        if self.nome == other.nome:
+            return self.idade < other.idade
+        return self.nome < other.nome
