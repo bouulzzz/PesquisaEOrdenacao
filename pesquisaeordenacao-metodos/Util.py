@@ -1,5 +1,7 @@
 import random
 
+from Aluno import Aluno
+
 class Util:
 
     @staticmethod
@@ -32,4 +34,5 @@ class Util:
         :param tamanho
         """
         for i in range(quantidade):
+            nome, idade = Util.gerador(tamanho)
             lista.append(Util.gerador(tamanho))
