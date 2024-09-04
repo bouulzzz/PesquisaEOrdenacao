@@ -19,19 +19,19 @@ Util.geradorParaLista(lista_sort, quantidade, tamanhoNome)
 
 
 print("\n Lista com método bolha \n")
-Ordenacao.metodoBolha(lista_bolha)
+Ordenacao.Bolha(lista_bolha)
 for aluno in lista_bolha:
     print(aluno)
 
 
 print("\n Lista com método seleção \n")
-Ordenacao.metodoSelecao(lista_selecao)
+Ordenacao.Selecao(lista_selecao)
 for aluno in lista_selecao:
     print(aluno)
 
 
 print("\n Lista com método inserção \n")
-Ordenacao.metodoInsercao(lista_insercao)
+Ordenacao.Insercao(lista_insercao)
 for aluno in lista_insercao:
     print(aluno)
 
