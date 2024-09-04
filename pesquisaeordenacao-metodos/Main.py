@@ -1,0 +1,42 @@
+from Util import Util
+from Ordenacao import Ordenacao
+
+import random
+
+lista_bolha = []
+lista_insercao = []
+lista_selecao = []
+lista_sort = []
+
+quantidade = 60000
+
+tamanhoNome = random.randint(3, 4)
+
+Util.geradorParaLista(lista_bolha, quantidade, tamanhoNome)
+Util.geradorParaLista(lista_selecao, quantidade, tamanhoNome)
+Util.geradorParaLista(lista_insercao, quantidade, tamanhoNome)
+Util.geradorParaLista(lista_sort, quantidade, tamanhoNome)
+
+
+print("\n Lista com método bolha \n")
+Ordenacao.metodoBolha(lista_bolha)
+for aluno in lista_bolha:
+    print(aluno)
+
+
+#print("\n Lista com método seleção \n")
+#Ordenacao.metodoSelecao(lista_selecao)
+#for aluno in lista_selecao:
+#    print(aluno)
+
+
+#print("\n Lista com método inserção \n")
+#Ordenacao.metodoInsercao(lista_insercao)
+#for aluno in lista_insercao:
+#    print(aluno)
+
+
+#print("\n Lista com método sort \n")
+#lista_sort = sorted(lista_sort)
+#for aluno in lista_sort:
+#    print(aluno)
