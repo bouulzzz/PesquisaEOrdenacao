@@ -10,7 +10,7 @@ lista_sort = []
 
 quantidade = 60000
 
-tamanhoNome = random.randint(3, 4)
+tamanhoNome = random.randint(3, 6)
 
 Util.geradorParaLista(lista_bolha, quantidade, tamanhoNome)
 Util.geradorParaLista(lista_selecao, quantidade, tamanhoNome)
