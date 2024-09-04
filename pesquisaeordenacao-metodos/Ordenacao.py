@@ -1,7 +1,7 @@
 class Ordenacao:
 
     @staticmethod
-    def metodoBolha(lista = []):
+    def Bolha(lista = []):
 
         """
         Método de Bolha
@@ -21,7 +21,7 @@ class Ordenacao:
 
 
     @staticmethod
-    def metodoSelecao(lista = []):
+    def Selecao(lista = []):
 
         """
         Método de Seleção
@@ -39,7 +39,7 @@ class Ordenacao:
 
 
     @staticmethod
-    def metodoInsercao(lista=[]):
+    def Insercao(lista=[]):
 
         """
         Método de Inserção
