@@ -1,6 +1,9 @@
 from Util import Util
 from Ordenacao import Ordenacao
 
+    """
+    Main Class para execução do código
+    """
 import random
 
 lista_bolha = []
