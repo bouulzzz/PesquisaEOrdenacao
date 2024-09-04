@@ -24,19 +24,19 @@ for aluno in lista_bolha:
     print(aluno)
 
 
-#print("\n Lista com método seleção \n")
-#Ordenacao.metodoSelecao(lista_selecao)
-#for aluno in lista_selecao:
-#    print(aluno)
+print("\n Lista com método seleção \n")
+Ordenacao.metodoSelecao(lista_selecao)
+for aluno in lista_selecao:
+    print(aluno)
 
 
-#print("\n Lista com método inserção \n")
-#Ordenacao.metodoInsercao(lista_insercao)
-#for aluno in lista_insercao:
-#    print(aluno)
+print("\n Lista com método inserção \n")
+Ordenacao.metodoInsercao(lista_insercao)
+for aluno in lista_insercao:
+    print(aluno)
 
 
-#print("\n Lista com método sort \n")
-#lista_sort = sorted(lista_sort)
-#for aluno in lista_sort:
-#    print(aluno)
+print("\n Lista com método sort \n")
+lista_sort = sorted(lista_sort)
+for aluno in lista_sort:
+    print(aluno)
